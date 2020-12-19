@@ -1,12 +1,14 @@
 <html>
   <head>
+    <title>Xiaozhan.sb.backup.Grabber</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <p>请在此处键入需要爬取的文章的网址。</p>
-    <p>提交后将会跳转到抓取后的文章地址。抓取过程需要数分钟，请耐心等候。</p>
+    <p>请在此处键入需要存档的网址。</p>
+    <p>提交后将会跳转到存档后的地址。存档过程需要数分钟，请耐心等候。</p>
+    <p>如果图片无法正常加载，请将DNS更换为8.8.8.9/8.8.4.4。</p>
     <form action="/api/submit" method="post">
-      <div><textarea name="url" style="width: 100%; max-width: 600px; height: 100px;" placeholder="https://matters.news/..." required></textarea></div>
+      <div><textarea name="url" style="width: 100%; max-width: 600px; height: 100px;" placeholder="https://zhuanlan.zhihu.com/..." required></textarea></div>
       <div><input type="submit" value="提交"/></div>
     </form>
   </body>
